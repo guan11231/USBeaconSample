@@ -1,0 +1,121 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+
+
+
+    <!--新增-->
+    <!-- Base application theme. -->
+
+    <style name="bMenuStyle">
+        <item name="android:layout_width">@dimen/buttonWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/Blue</item>
+        <item name="android:textSize">@dimen/textButton</item>
+        <item name="android:textColor">@color/Cyan</item>
+        <item name="android:shadowColor">@color/Black</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:layout_margin">@dimen/Margin</item>
+        <item name="android:padding">@dimen/Padding</item>
+    </style>
+
+    <style name="bSettingStyle">
+        <item name="android:layout_width">@dimen/buttonSettings</item>
+        <item name="android:layout_height">@dimen/buttonSettings</item>
+    </style>
+
+    <style name="textGameStyle15">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:shadowColor">@color/Black</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="textPuzzleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/Cyan</item>
+        <item name="android:textSize">@dimen/Pyatnashki</item>
+        <item name="android:shadowColor">@color/Black</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+
+    <style name="gridBGameStyle15">
+        <item name="android:layout_width">@dimen/bGameSize15</item>
+        <item name="android:layout_height">@dimen/bGameSize15</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textGameStyle24">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:shadowColor">@color/Black</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="gridBGameStyle24">
+        <item name="android:layout_width">@dimen/buttonSize24</item>
+        <item name="android:layout_height">@dimen/buttonSize24</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="levelButton">
+        <item name="android:layout_width">@dimen/levelBSize</item>
+        <item name="android:layout_height">@dimen/levelBSize</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_margin">@dimen/levelMargin</item>
+    </style>
+
+    <style name="textGameStyle9">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:shadowColor">@color/Black</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="gridBGameStyle9">
+        <item name="android:layout_width">@dimen/bGameSize9</item>
+        <item name="android:layout_height">@dimen/bGameSize9</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>
